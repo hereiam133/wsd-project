@@ -1,0 +1,108 @@
+body{
+	
+	margin: 0 auto;
+	background-image: url("../Images/background.jpeg");
+}
+h1, h2, h3, p, li{
+	color: white;
+}
+#hwrapper{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	background-color: black;
+}
+header{
+	width:  960px;
+	height: 120px;
+	margin: 0 auto;
+	
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: #500000;
+	text-shadow: white 0.1em 0.1em 0.2em;
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color: black;
+}
+h2{
+	text-align: center;	
+}
+div.background{
+	width:  960px;
+	margin: 0 auto;
+	 
+}
+h3.afterphoto{
+	padding-top: 20px;
+}
+#nav{
+ float: right;
+ height: 100px;
+}
+#nav li{
+	display: inline;
+	list-style-type: none;
+	padding-top: 70px;
+	padding-right: 20px;
+	padding-bottom: -2px;
+	float: right;
+	font-size: 25px;
+	
+}
+img.float_left{
+	float: left;
+	margin: 5px;
+}
+aside{
+	float: right;
+	margin: 5px;
+}
+ol.gallery{
+	list-style-type: none;
+	
+	width: 400px;
+}
+ol.gallery li{
+	list-style-type: none;
+	float: left;
+}
+ol.gallery img{
+	border: 5px solid #fff;
+	margin: 5px;
+	display: block;
+}
+ol.gallery img:hover{
+	border: 5px solid black;
+}
+ol.gallery a{
+	outline: 0;
+}
+div{
+	clear: both;
+}
+p.right{
+	text-align: right;	
+}
+hr{
+	margin: 50px;
+}
+footer{
+	width:  960px;
+	height: 120px;
+	margin: 0 auto;
+}
+#fwrapper{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	background-color: black;
+}
+p.footer_text{
+    text-align: center;
+ 	padding-top: 50px;
+}
+	
