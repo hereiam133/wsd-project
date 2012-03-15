@@ -344,7 +344,7 @@ aside{
 	width: 100%;
 	margin:	0 1.5625%; /*15 px;*/
 	float: none;
-
+}
 
 #gallery_box{
 	clear:both;
@@ -357,6 +357,6 @@ aside{
 	
 	ol.gallery li{
 	list-style-type: none;
-	float: none;
+	float: left;
 	}
 }
