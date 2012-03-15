@@ -1,7 +1,7 @@
 body{
 	max-width: 960px;
-	margin: 0 auto;
-	font:100%;
+	margin: 15px auto;
+	font:100%/1.5 "IM Fell DW Pica", serif;
 	background-image: url("../Images/backgroundmain.jpg");	
 }
 h1, h2, h3, p, li{
@@ -13,7 +13,9 @@ h2{
 }
 h3, p, li{
 	font-family: 'IM Fell DW Pica', serif;
-	
+}
+p{
+	font-size: 100%;
 }
 hr{
 	color: #fff;
@@ -237,3 +239,23 @@ Start Button
 }
 	
 /*    END BUTTON    */
+
+/*    MEDIA QUERIES
+=========================================================*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width:768px) and (max-width:959px){
+	
+	}
+	
+	/* Mobile Landscape size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width:480px) and (max-width:767px){
+	
+	}
+	
+	/* Mobile Portrait size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width:479px){
+	
+	}
+
+
