@@ -2,8 +2,7 @@ body{
 	max-width: 960px;
 	margin: 0 auto;
 	font:100%;
-	background-image: url("../Images/backgroundmain.jpg");
-	
+	background-image: url("../Images/backgroundmain.jpg");	
 }
 h1, h2, h3, p, li{
 	color: white;
