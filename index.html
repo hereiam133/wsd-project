@@ -2,23 +2,55 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Iron Man Fan Page</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'>
 	<body>
-		<header>
-			<h1>This is my fan page site for Iron Man</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="index.html">about</a></li>
-				<li><a href="index.html">contact</a></li>
-			</ul>
-		</nav>
-		</header>
+	
+			<header>
+			<div id="logo"><img src="Images/ironman.jpg" alt="Iron Man Badge." title="Iron Man Fan Site"></div>
+			<h1>Fan Page</h1>
+				<nav>
+					<ul id="nav">
+						<li><a href="index.html">home</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#contact">contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		
+	<div id="wrapper">
+		
 		<h2>IRON MAN</h2>
-		<img src="Images/iron-man.jpg" width="312" height="511" alt="Photo of Iron Man standing proud." title="Iron Man">
-		<div>
+		<div id="ironman_container"><img src="Images/iron-man.png" alt="Photo of Iron Man standing proud." title="Iron Man"></div>
+		<aside>
+			<section id="reason_box">
+			<h3>5 reasons to not mess with Iron Man</h3>
+			<ol class="reasons">
+				<li>Umm he is made of iron</li>
+				<li>He can fly</li>
+				<li>Has a massive power source</li>
+				<li>Shoots beams of energy to disable and destroy targets</li>
+				<li>He is backed by the Avengers</li>
+			</ol>
+			</section>
+			<div class="break"></div>
+			<section id="gallery_box">
+			<h3>Image Gallery</h3>
+			<ol class="gallery">
+				<li><a href="Images/ironman2.jpg" title="Iron Man" target="_blank"><img src="Images/ironman2.jpg"  width="150" height="100" alt="Photo of Iron Man standing proud."></a></li>
+				<li><a href="Images/ironman3.jpg" title="Iron Man" target="_blank"><img src="Images/ironman3.jpg"  width="150" height="100" alt="Photo of Iron Man standing proud."></a></li>
+				<li><a href="Images/ironman4.jpg" title="Iron Man" target="_blank"><img src="Images/ironman4.jpg"  width="150" height="100" alt="Photo of Iron Man standing proud."></a></li>
+				<li><a href="Images/ironman5.jpg" title="Iron Man" target="_blank"><img src="Images/ironman5.jpg"  width="150" height="100" alt="Photo of Iron Man standing proud."></a></li>
+			</ol>
+			</section>
+		</aside>
+	</div><!-- END WRAPPER -->
+		<div id="main_content">
 			<section>
-				<h3>Tony Stark aka "Iron Man"</h3>
+				<h3 class="afterphoto">Tony Stark aka "Iron Man"</h3>
 				<p><strong>Iron Man</strong> who under all the armor is Tony Stark, a brilliant engineer.
 				He created his suit to protect him and to give him extra ordinary strength and powers.
 				His ability to fly and shoot beams of energy from his hands and chest help him defeat his foes.
@@ -31,19 +63,42 @@
 				powerful weapon to survive, his mind. Soon we shall hopefully see Tony and the iron suit truly 
 				become <span id="make_red">Iron Man</span>.</p>
 			</section>
+			<section>
+				<p>Iron man the movie is great for a number of reasons. To start it helps to bring
+				the comic books to life. It actually allows you to enjoy the comic books even more
+				because now you have an even greater picture painted in your mind. That is again all 
+				thanks to the movies. Hopefully they stick on the path they have started as it is a 
+				great addition to the comic with impressive visuals to spark anyone's mind.</p>
+			</section>
+			<hr>
+		</div><!--End Main Content  -->
+		
+		<div id="about">
+			<h2>About The Site</h2>
+				<section class="column">
+			<p>A billionaire playboy, industrialist and ingenious engineer, Stark suffers a severe 
+			chest injury during a kidnapping in which his captors attempt to force him to build a 
+			weapon of mass destruction. He instead creates a powered suit of armor to save his life 
+			and escape captivity. He later uses the suit to protect the world as Iron Man. Through 
+			his multinational corporation ― Stark Industries ― Tony has created many military weapons, 
+			some of which, along with other technological devices of his making, have been integrated 
+			into his suit, helping him fight crime. Initially, Iron Man was a vehicle for Stan Lee to 
+			explore Cold War themes, particularly the role of American technology and business in the 
+			fight against communism. Subsequent re-imaginings of Iron Man have transitioned from Cold 
+			War themes to contemporary concerns, such as corporate crime and terrorism.</p>
+				</section>
+				<p class="right"><a href="#top" class="button white">back to top</a></p>
+		
+		<hr></div>
+		
+		<div id="contact">
+			<h2>Contact Us</h2>
+				<p>Contact form will go in here.</p>
+				<p class="right"><a href="#top" class="button white">back to top</a></p>
 		</div>
-		<aside>
-			<h3>Five reasons why not to mess with Iron Man</h3>
-			<ol>
-				<li>Umm he is made of iron</li>
-				<li>He can fly</li>
-				<li>Has a massive power source</li>
-				<li>Shoots beams of energy to disable and destroy targets</li>
-				<li>He is backed by the Avengers</li>
-			</ol>
-		</aside>
+	
 		<footer>
-			<p>Thank You for viewing my site. All rights reserved. &copy;2012</p>
+			<p class="footer_text">Thank You for viewing my site. All rights reserved. &copy;2012</p>
 		</footer>
 	</body>
 </html>
