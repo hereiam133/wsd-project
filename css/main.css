@@ -126,6 +126,9 @@ aside{
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.6);
 }
+#gallery_box{
+	width:90%;
+}
 ol.reasons{
 	max-width: 100%;
 }
@@ -245,17 +248,115 @@ Start Button
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width:768px) and (max-width:959px){
-	
+	body{
+	margin: 0 auto;
+	background: black;
+	font:100%/1.5 "IM Fell DW Pica", serif;
+	}
 	}
 	
 	/* Mobile Landscape size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width:480px) and (max-width:767px){
-	
+		body{
+	width:100%;
+	margin: 0 auto;
+	background: black;
+	font:90%/1.5 "IM Fell DW Pica", serif;
+	}
+		
+		h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.1875em; /*35px;*/
+	color: #500000;
+	text-shadow: 0.1em 0.1em 0.2em #67898A;
+	float: left;
+	padding: 6px 0 0 2.083333%;
+	margin-bottom: 0;
+	opacity: 0.9;
+}
+#nav{
+	width: 90%; /*300px;*/
+	margin: 90px 0 0;
+	list-style-type: none;
+	padding: 0 0 0 9%;
+	overflow:hidden;
+	float:none;
+}
+#nav li{
+	width: 33.333333%; /*100px;*/
+	float: right;
+	font-size: 1.5625em; /*25px;*/
+}
+nav.a{
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
 	}
 	
 	/* Mobile Portrait size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width:479px){
-	
+	body{
+	width:95%;
+	margin: 0 auto;
+	background: back;
+	font:80%/1.5 "IM Fell DW Pica", serif;
 	}
+	#wrapper{background:black;
+	}
+	h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.1875em; /*35px;*/
+	color: #500000;
+	text-shadow: 0.1em 0.1em 0.2em #67898A;
+	float: left;
+	padding: 6px 0 0 2.083333%;
+	margin-bottom: 0;
+	opacity: 0.9;
+}
+#nav{
+	width: 100%; /*300px;*/
+	margin: 90px auto 0;
+	list-style-type: none;
+	padding: 0 0 0 9%;
+	overflow:hidden;
+	float:none;
+}
+#nav li{
+	width: 33.333333%; /*100px;*/
+	float: left;
+	font-size: 1.5625em; /*25px;*/
+}
+.column{
+	-moz-column-count: 1;
+	-moz-column-gap: 0;
+	-webkit-column-count: 1;
+	-webkit-column-gap: 0;
+	column-count: 1;
+	column-gap: 0;
+}
+#ironman_container{
+	float:none;
+	padding-left:30%;
+	}
+aside{
+	clear: both;
+	width: 100%;
+	margin:	0 1.5625%; /*15 px;*/
+	float: none;
 
 
+#gallery_box{
+	clear:both;
+	width:100%;
+	list-style-type: none;
+	padding: 0;
+	overflow:hidden;
+	float: left;
+}
+	
+	ol.gallery li{
+	list-style-type: none;
+	float: none;
+	}
+}
