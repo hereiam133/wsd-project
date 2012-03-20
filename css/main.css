@@ -519,6 +519,7 @@ ol.gallery li{
 	float: left;
 }
 table{
+	width:90%;
 	float: left;
 	margin: 0 1% 50px 5%
 }
