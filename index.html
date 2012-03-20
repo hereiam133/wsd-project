@@ -49,7 +49,7 @@
 		</aside>
 	</div><!-- END WRAPPER -->
 		<div id="main_content">
-			<section>
+			<section class="space">
 				<h3 class="afterphoto">Tony Stark aka "Iron Man"</h3>
 				<p><strong>Iron Man</strong> who under all the armor is Tony Stark, a brilliant engineer.
 				He created his suit to protect him and to give him extra ordinary strength and powers.
@@ -57,13 +57,13 @@
 				The suit protects him from damage and gives him superhuman strength. Tony has adapted to challenges 
 				he has faced to over come even the most challenging tasks due to his true genius nature. </p>
 			</section>
-			<section>
+			<section class="space">
 				<p>Tony's upcomming role as a member of the Avengers will surely be exciting and if the movies 
 				stay true to the comics, Tony and the iron suit will be come one. He will have to use his most
 				powerful weapon to survive, his mind. Soon we shall hopefully see Tony and the iron suit truly 
 				become <span id="make_red">Iron Man</span>.</p>
 			</section>
-			<section>
+			<section class="space">
 				<p>Iron man the movie is great for a number of reasons. To start it helps to bring
 				the comic books to life. It actually allows you to enjoy the comic books even more
 				because now you have an even greater picture painted in your mind. That is again all 
@@ -93,10 +93,73 @@
 		
 		<div id="contact">
 			<h2>Contact Us</h2>
-				<p>Contact form will go in here.</p>
+				<table>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Phone Number</th>
+						<th>Location</th>
+					</tr>
+					<tr>
+						<td>Jason</td>
+						<td>Bourbeau</td>
+						<td>(777)777-7777</td>
+						<td>Tallahassee, Florida</td>
+					</tr>
+					<tr class="odd_row">
+						<td>Will</td>
+						<td>Stark</td>
+						<td>(555)555-5555</td>
+						<td>Miami, Florida</td>
+					</tr>
+					<tr>
+						<td>Alan</td>
+						<td>Freeman</td>
+						<td>(444)444-4444</td>
+						<td>Orlando, Florida</td>
+					</tr>
+					<tr class="odd_row">
+						<td>Matt</td>
+						<td>Tills</td>
+						<td>(333)333-3333</td>
+						<td>Naples, Florida</td>
+					</tr>
+				</table>
+				<section class="contact_form">
+				<form method="post" action="mailto:hereiam133@gmail.com">
+					<div>
+						<label for="name_first">First Name</label>
+						<input type="text" name="name_first" id="name_first" />
+					</div>
+					<div>
+						<label for="name_last">Last Name</label>
+						<input type="text" name="name_last" id="name_last" />
+					</div>
+					<div>
+						<label for="email">Email Address</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div>
+						<label for="regarding">Regarding</label>
+						<select name="regarding" id="regarding">
+							<option>General Inquiry</option>
+							<option>Suggestion</option>
+							<option>Site Error</option>
+						</select>
+					</div>
+					<div>
+						<label for="message">Message</label>
+					</div>
+					<div>
+						<textarea rows="10" cols="30" name="message" id="message"></textarea>
+					</div>
+					<div>
+						<button type="submit" name="submit" class="button" id="submit_button">Send Message</button>
+					</div>
+				</form>
+			</section>
 				<p class="right"><a href="#top" class="button white">back to top</a></p>
 		</div>
-	
 		<footer>
 			<p class="footer_text">Thank You for viewing my site. All rights reserved. &copy;2012</p>
 		</footer>
